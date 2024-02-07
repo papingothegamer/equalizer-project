@@ -1,0 +1,25 @@
+#gridContainer {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 2px;
+  width: 80vw;
+  height: 50vh;
+  margin: 20px auto;
+  border: 1px solid black; /* Add black outline for the grid */
+}
+
+.cell {
+  background-color: #e0e0e0;
+  border: 1px solid black; /* Add black outline for the cells */
+}
+
+#audioInput {
+  margin: 20px auto;
+  display: block;
+}
+
+#audioPlayer {
+  margin: 20px auto;
+  display: block;
+}

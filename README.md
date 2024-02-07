@@ -1,5 +1,6 @@
 # equalizer-project
 
+
 ## Overview
 This project is a web application that allows users to upload an audio file and visualize its sound waves using a grid of cells. The grid responds to the audio frequency data, changing the color of each cell based on the intensity of the sound waves. Users can play, pause, and upload different audio files to see the visualization.
 
@@ -43,6 +44,10 @@ This project is a web application that allows users to upload an audio file and 
 #### Solution:
 - Added event listeners to the audio player for play and pause actions.
 - Suspended and resumed the audio context to pause and resume audio playback and grid visualization.
+
+### Upcoming Fix: Double instances of audio playback
+#### Note:
+- A fix for the issue of double instances of audio playback will be provided soon.
 
 ## Future Enhancements
 - Improve the visual representation of sound waves in the grid.
